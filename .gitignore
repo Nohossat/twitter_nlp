@@ -1,0 +1,5 @@
+venv
+.vscode
+twitter_credentials.json
+json/twitter.json
+sql/twitter_tweets.db
