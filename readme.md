@@ -47,3 +47,12 @@ python app.py --credentials credentials.json --search PyCon
 
 A template of the credentials file is provided (**credentials.json**) but you have to replace the missing credentials with your own.
 
+```python
+{
+    "consumer_key" : "XXXXXXXXX",
+    "consumer_secret" : "XXXXXXX",
+    "access_token" : "XXXXX",
+    "access_secret" : "XXXXXXXXX"
+}
+```
+
