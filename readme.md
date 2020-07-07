@@ -32,7 +32,7 @@ cd twitter_nlp
 
 ```python
 python -m venv venv/
-source venv/bin/activate # OSX
+source venv/bin/activate # POSIX - bash/zsh
 .\venv\Scripts\activate # Windows - Powershell
 pip install -r requirements.txt
 ```
