@@ -2,7 +2,7 @@
  
 ## Fetch 1000 tweets with Twython
 
-We use th Twython module to easily fetch tweets.
+We use the Twython module to easily fetch tweets.
 
 ## NLP Feature engineering : Tokenization
 
@@ -25,12 +25,15 @@ You must install **MongoDB** and **SQLite** in your machine before using the app
 
 ```python
 git clone https://github.com/Nohossat/twitter_nlp.git
+cd twitter_nlp
 ```
 
 ### 2. Install dependencies
 
 ```python
 python -m venv venv/
+source venv/bin/activate # OSX
+.\venv\Scripts\activate # Windows - Powershell
 pip install -r requirements.txt
 ```
 
